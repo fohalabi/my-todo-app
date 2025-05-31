@@ -1,4 +1,4 @@
-# 📝 To-Do Scheduler App
+# 📝 My To-Do App
 
 A simple and intuitive To-Do application that helps you **schedule**, **track**, and **manage** your daily tasks. Easily add, delete, and mark your tasks as complete to stay organized and productive.
 
@@ -16,6 +16,7 @@ A simple and intuitive To-Do application that helps you **schedule**, **track**,
 
 - **Frontend**: React
 - **State Management**: LocalStorage 
+
 
 ---
 
