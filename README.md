@@ -1,12 +1,41 @@
-# React + Vite
+# 📝 To-Do Scheduler App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and intuitive To-Do application that helps you **schedule**, **track**, and **manage** your daily tasks. Easily add, delete, and mark your tasks as complete to stay organized and productive.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ **Add Tasks**: Create new to-do items with ease.
+- 🗑️ **Delete Tasks**: Remove tasks that are no longer needed.
+- ✔️ **Mark as Complete**: Track your progress by marking tasks as done.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ Tech Stack
+
+- **Frontend**: React
+- **State Management**: LocalStorage 
+
+---
+
+## 📸 Screenshots
+
+*Coming soon...*
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/todo-scheduler.git
+
+# Navigate to the project folder
+cd todo-scheduler
+
+# Install dependencies (if using a framework)
+npm install
+
+# Start the app
+npm run dev
