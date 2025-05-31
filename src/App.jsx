@@ -32,6 +32,20 @@ function App(props) {
     setTasks(remainingTasks);
   }
 
+  function editTask(id, newName) {
+    const editedTasks = tasks.map((task) => {
+      // If this task has the same ID as the edited task
+      if ( id === task.id ){
+        // copy the task and update its name
+        return {...task, name: newName };
+      }
+
+      return task; // Otherwise, return the tast as it was
+    });
+
+    setTasks(editedTasks);
+  }
+
   const taskList = tasks?.map((task) => (
     <Todo 
      id={task.id} 
@@ -40,6 +54,7 @@ function App(props) {
      key={task.id}
      toggleTaskCompleted={toggleTaskCompleted}
      deleteTask={deleteTask}
+     editTask={editTask}
     />
   ));
 
