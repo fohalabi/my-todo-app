@@ -56,7 +56,9 @@ function App(props) {
 
   const [filter, setFilter] = useState("All");
 
-  const taskList = tasks?.map((task) => (
+  const taskList = tasks
+    .filter(FILTER_MAP[filter])
+    .map((task) => (
     <Todo 
      id={task.id} 
      name={task.name} 
@@ -78,7 +80,7 @@ function App(props) {
   ));
 
   const taskNoun = taskList.length !== 1 ? "tasks" : "task";
-  const headingText = `${tasks.length} tasks remaining`;
+  const headingText = `${taskList.length} ${taskNoun} tasks remaining`;
 
   return (
     <div className="todoapp stack-large">
